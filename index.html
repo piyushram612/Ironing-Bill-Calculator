@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Laundry Tracker</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laundry Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Laundry Tracker</h1>
-        
-        <div class="form-group">
-            <label>Shirts: <input type="number" id="shirts" min="0"></label>
-            <label>Pants: <input type="number" id="pants" min="0"></label>
-            <label>Kurtas: <input type="number" id="kurtas" min="0"></label>
-        </div>
+  <div class="container">
+    <h1>Laundry Tracker</h1>
 
-        <div class="form-group">
-            <label>Rate per Shirt: ₹<input type="number" id="rateShirt" min="0"></label>
-            <label>Rate per Pant: ₹<input type="number" id="ratePant" min="0"></label>
-            <label>Rate per Kurta: ₹<input type="number" id="rateKurta" min="0"></label>
-        </div>
+    <div class="card">
+      <div class="input-group">
+        <span>👔 Shirt</span>
+        <input type="number" id="shirts" placeholder="Count">
+        <input type="number" id="rateShirt" placeholder="Rate (₹)">
+      </div>
 
-        <button onclick="generateBill()">Generate Bill</button>
-        <button onclick="downloadReceipt()">Download Receipt</button>
+      <div class="input-group">
+        <span>👖 Pant</span>
+        <input type="number" id="pants" placeholder="Count">
+        <input type="number" id="ratePant" placeholder="Rate (₹)">
+      </div>
 
-        <div id="bill" class="bill">
-            <h2>Receipt</h2>
-            <p id="billDetails">Fill in the items and click Generate Bill.</p>
-        </div>
+      <div class="input-group">
+        <span>🧥 Kurta</span>
+        <input type="number" id="kurtas" placeholder="Count">
+        <input type="number" id="rateKurta" placeholder="Rate (₹)">
+      </div>
+
+      <div class="input-group">
+        <span>👗 Other</span>
+        <input type="number" id="others" placeholder="Count">
+        <input type="number" id="rateOther" placeholder="Rate (₹)">
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-    <script src="script.js"></script>
+
+    <div class="buttons">
+      <button onclick="generateBill()">Generate Bill</button>
+      <button onclick="downloadReceipt()">Download Receipt</button>
+    </div>
+
+    <div id="bill" class="bill-card">
+      <h2>🧾 Receipt</h2>
+      <div id="billDetails">
+        <p>Enter details and click "Generate Bill".</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
