@@ -13,30 +13,38 @@
     <h1>Laundry Tracker</h1>
 
     <div class="card">
-      <div class="input-group">
-        <span>👔 Shirt</span>
-        <input type="number" id="shirts" placeholder="Count">
-        <input type="number" id="rateShirt" placeholder="Rate (₹)">
-      </div>
+<div class="input-group">
+  <label>👔 Shirt</label>
+  <div class="input-pair">
+    <input type="number" id="shirts" placeholder="Count">
+    <input type="number" id="rateShirt" placeholder="Rate (₹)">
+  </div>
+</div>
 
-      <div class="input-group">
-        <span>👖 Pant</span>
-        <input type="number" id="pants" placeholder="Count">
-        <input type="number" id="ratePant" placeholder="Rate (₹)">
-      </div>
+<div class="input-group">
+  <label>👖 Pant</label>
+  <div class="input-pair">
+    <input type="number" id="pants" placeholder="Count">
+    <input type="number" id="ratePant" placeholder="Rate (₹)">
+  </div>
+</div>
 
-      <div class="input-group">
-        <span>🧥 Kurta</span>
-        <input type="number" id="kurtas" placeholder="Count">
-        <input type="number" id="rateKurta" placeholder="Rate (₹)">
-      </div>
+<div class="input-group">
+  <label>🧥 Kurta</label>
+  <div class="input-pair">
+    <input type="number" id="kurtas" placeholder="Count">
+    <input type="number" id="rateKurta" placeholder="Rate (₹)">
+  </div>
+</div>
 
-      <div class="input-group">
-        <span>👗 Other</span>
-        <input type="number" id="others" placeholder="Count">
-        <input type="number" id="rateOther" placeholder="Rate (₹)">
-      </div>
-    </div>
+<div class="input-group">
+  <label>👗 Other</label>
+  <div class="input-pair">
+    <input type="number" id="others" placeholder="Count">
+    <input type="number" id="rateOther" placeholder="Rate (₹)">
+  </div>
+</div>
+
 
     <div class="buttons">
       <button onclick="generateBill()">Generate Bill</button>
