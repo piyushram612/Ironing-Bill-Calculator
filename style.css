@@ -39,7 +39,6 @@ h1 {
   gap: 24px;
 }
 
-/* Each clothing section */
 .input-group {
   display: flex;
   flex-direction: column;
@@ -67,17 +66,8 @@ h1 {
   border-radius: 8px;
   background: var(--input-bg);
   width: 100%;
-}
-
-/* Tablet/Desktop layout for Count + Rate side-by-side */
-@media (min-width: 600px) {
-  .input-pair {
-    flex-direction: row;
-  }
-
-  .input-pair input {
-    flex: 1;
-  }
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .buttons {
