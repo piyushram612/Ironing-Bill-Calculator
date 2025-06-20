@@ -1,18 +1,18 @@
 :root {
-  --bg-color: #f5f7fa;
-  --card-bg: #ffffff;
-  --primary: #8fb3ff;
-  --primary-dark: #608dff;
+  --bg-color: #f3e8ff;       /* pastel lavender background */
+  --card-bg: #e3f0ff;        /* light powder-blue card */
+  --primary: #608dff;        /* button blue */
+  --primary-dark: #4a75e5;   /* button hover */
+  --input-bg: #f6f9fc;       /* very soft input field bg */
   --text-color: #2b2b2b;
-  --input-bg: ##f08db5;
-  --border-color: #dce3ea;
   --font: 'Manrope', sans-serif;
+  --border-color: #dce3ea;
 }
 
 body {
   margin: 0;
   font-family: var(--font);
-  background-color: #df61ed;
+  background-color: var(--bg-color);
   color: var(--text-color);
 }
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 .card {
-  background:#8ccded;
+  background: var (--card-bg);
   border-radius: 16px;
   padding: 20px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
