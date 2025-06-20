@@ -1,8 +1,8 @@
 :root {
   --bg-color: #f5f7fa;
   --card-bg: #ffffff;
-  --primary: #7c9dfa;
-  --primary-dark: #5d7fe2;
+  --primary: #8fb3ff;
+  --primary-dark: #608dff;
   --text-color: #2b2b2b;
   --input-bg: #f0f2f5;
   --border-color: #dce3ea;
@@ -17,15 +17,15 @@ body {
 }
 
 .container {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  max-width: 480px;
+  margin: 24px auto;
+  padding: 16px;
 }
 
 h1 {
   text-align: center;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
@@ -39,28 +39,33 @@ h1 {
   gap: 20px;
 }
 
+/* Each clothing section */
 .input-group {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.input-group span {
-  flex: 1 0 60px;
-  font-size: 20px;
+.input-group label {
+  font-weight: 500;
+  font-size: 16px;
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 
-.input-group input {
-  flex: 1 0 100px;
+.input-pair {
+  display: flex;
+  gap: 10px;
+}
+
+.input-pair input {
+  flex: 1;
   padding: 10px;
   font-size: 15px;
   border: 1px solid var(--border-color);
   border-radius: 8px;
   background: var(--input-bg);
-  width: 100%;
 }
 
 .buttons {
@@ -95,7 +100,7 @@ button:hover {
 
 .bill-card h2 {
   margin-top: 0;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   border-bottom: 1px solid #eee;
   padding-bottom: 8px;
@@ -112,19 +117,10 @@ button:hover {
   margin-top: 10px;
 }
 
-/* 🌐 Mobile Tweaks */
-@media (max-width: 600px) {
-  .input-group {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .input-group span,
-  .input-group input {
-    flex: 1 0 100%;
-  }
-
-  .buttons {
-    flex-direction: column;
+@media (min-width: 600px) {
+  .input-pair {
+    flex-direction: row;
   }
 }
+
+@media (max-width: 599px) {
