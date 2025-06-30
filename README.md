@@ -14,7 +14,7 @@ Built using HTML, CSS, and JavaScript — no backend, no database — just fast 
 ✅ Soft pastel UI for a clean and pleasant experience
 
 ##📸 Screenshot
-![Laundry Tracker Screenshot](./imagess/sample.png)
+![Laundry Tracker Screenshot](./images/sample.png)
 
 ##🚀 Live Demo
 Check it out here 👉 [Laundry Tracker](https://piyushram612.github.io/Ironing-Bill-Calculator/)
