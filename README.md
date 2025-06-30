@@ -26,10 +26,10 @@ JavaScript (pure JS, no frameworks)
 html2canvas (for generating image of the receipt)
 
 ## ⚙️ How to Use
-1️⃣ Enter the count and rate for each item type (shirt, pant, kurta, other).
-2️⃣ Click Generate Bill — view your receipt instantly.
-3️⃣ Click Download Receipt — saves the bill as an image.
-4️⃣ Click Reset if you want to start over.
+1️⃣ Enter the count and rate for each item type (shirt, pant, kurta, other).  
+2️⃣ Click Generate Bill — view your receipt instantly.  
+3️⃣ Click Download Receipt — saves the bill as an image.  
+4️⃣ Click Reset if you want to start over.  
 
 ## 📦 How to Run Locally
 git clone https://github.com/piyushram612/Ironing-Bill-Calculator.git
