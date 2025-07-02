@@ -4,14 +4,14 @@ Built using HTML, CSS, and JavaScript — no backend, no database — just fast 
 👉 Hosted on GitHub Pages.
 
 ## ✨ Features
-✅ Input number of shirts, pants, kurtas, and other items
-✅ Set individual rates for each clothing type
-✅ Instantly generates a detailed bill
-✅ Shows timestamp for when the bill was created
-✅ Download the bill as an image (for easy reference on your phone)
-✅ Reset button to clear form and bill
-✅ Works beautifully on mobile and desktop
-✅ Soft pastel UI for a clean and pleasant experience
+✅ Input number of shirts, pants, kurtas, and other items  
+✅ Set individual rates for each clothing type  
+✅ Instantly generates a detailed bill  
+✅ Shows timestamp for when the bill was created  
+✅ Download the bill as an image (for easy reference on your phone)  
+✅ Reset button to clear form and bill  
+✅ Works beautifully on mobile and desktop  
+✅ Soft pastel UI for a clean and pleasant experience  
 
 ## 📸 Screenshot
 ![Laundry Tracker Screenshot](./images/sample.png)
